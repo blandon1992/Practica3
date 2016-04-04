@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center"
+        android:src="@drawable/iglesia"/>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="299dp"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="@string/acercaD"
+            style="@style/TextViewD">
+        </TextView>
+
+        <TextView
+            android:text="@string/acercaDcontent"
+            style="@style/TextViewT">
+
+        </TextView>
+    </LinearLayout>
+
+</FrameLayout>
